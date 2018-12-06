@@ -24,7 +24,10 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 This directory contains the Java files for a Cantaloupe Image Server and an `images` directory from which local images are served. 
 
-To run the Image Server use this command: 
+To run the Image Server:
+
+1. Copy `cantaloupe.properties.sample` and save it as `cantaloupe.properties`. Then set `FilesystemSource.BasicLookupStrategy.path_prefix` to the absolute path to your `images` directory in this repository
+2. run the command below (replacing `/Users/gwynjones/PhpstormProjects/iiif_local/cantaloupe-4.0.2/cantaloupe.properties` with the path to your local `cantaloupe.properties` file): 
 
 ```bash
 java -Dcantaloupe.config=/Users/gwynjones/PhpstormProjects/iiif_local/cantaloupe-4.0.2/cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
