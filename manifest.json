@@ -2,8 +2,8 @@
   "@context":"http://iiif.io/api/presentation/2/context.json",
   "@id":"https://media.nga.gov/public/manifests/nga_highlights.json",
   "@type":"sc:Manifest",
-  "logo": "http://localhost:8000/images/logo.jpg",
-  "label":"Collection of Big Cats",
+  "logo": "http://localhost:3000/logo.jpg",
+  "label":"Collection of Documents",
   "metadata":[
     {
       "label":"Description",
@@ -31,14 +31,14 @@
               "@type":"oa:Annotation",
               "motivation":"sc:painting",
               "resource":{
-                "@id":"http://localhost:8182/iiif/2/tiger.jpg/full/full/0/default.jpg",
+                "@id":"http://localhost:8182/iiif/2/image01.jpg/full/full/0/default.jpg",
                 "@type":"dctypes:Image",
                 "format":"image/jpeg",
                 "height":1000,
                 "width":667,
                 "service":{
                   "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/tiger.jpg/",
+                  "@id":"http://localhost:8182/iiif/2/image01.jpg/",
                   "profile":"http://iiif.io/api/image/2/level2.json"
                 }
               },
@@ -64,14 +64,14 @@
               "@type":"oa:Annotation",
               "motivation":"sc:painting",
               "resource":{
-                "@id":"http://localhost:8182/iiif/2/snow_leopard.jpg/full/full/0/default.jpg",
+                "@id":"http://localhost:8182/iiif/2/image02.jpg/full/full/0/default.jpg",
                 "@type":"dctypes:Image",
                 "format":"image/jpeg",
                 "height":3456,
                 "width":5184,
                 "service":{
                   "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/snow_leopard.jpg/",
+                  "@id":"http://localhost:8182/iiif/2/image02.jpg/",
                   "profile":"http://iiif.io/api/image/2/level2.json"
                 }
               },
@@ -90,14 +90,14 @@
               "@type":"oa:Annotation",
               "motivation":"sc:painting",
               "resource":{
-                "@id":"http://localhost:8182/iiif/2/jaguar.jpg/full/full/0/default.jpg",
+                "@id":"http://localhost:8182/iiif/2/image03.jpg/full/full/0/default.jpg",
                 "@type":"dctypes:Image",
                 "format":"image/jpeg",
                 "height":1000,
                 "width":667,
                 "service":{
                   "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/jaguar.jpg/",
+                  "@id":"http://localhost:8182/iiif/2/image03.jpg/",
                   "profile":"http://iiif.io/api/image/2/level2.json"
                 }
               },
@@ -123,18 +123,51 @@
               "@type":"oa:Annotation",
               "motivation":"sc:painting",
               "resource":{
-                "@id":"http://localhost:8182/iiif/2/lion.jpg/full/full/0/default.jpg",
+                "@id":"http://localhost:8182/iiif/2/image04.jpg/full/full/0/default.jpg",
                 "@type":"dctypes:Image",
                 "format":"image/jpeg",
                 "height":3456,
                 "width":5184,
                 "service":{
                   "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/lion.jpg/",
+                  "@id":"http://localhost:8182/iiif/2/image04.jpg/",
                   "profile":"http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on":"https://media.nga.gov/public/manifests/canvas/61371.json"
+            }
+          ]
+        },
+        {
+          "@id":"https://media.nga.gov/public/manifests/canvas/61381.json",
+          "@type":"sc:Canvas",
+          "label":"Lion",
+          "metadata":[
+            {
+              "label":"Date",
+              "value":"1883"
+            }
+          ],
+          "description":"Painting",
+          "height":3456,
+          "width":5184,
+          "images":[
+            {
+              "@type":"oa:Annotation",
+              "motivation":"sc:painting",
+              "resource":{
+                "@id":"http://localhost:8182/iiif/2/image05.jpg/full/full/0/default.jpg",
+                "@type":"dctypes:Image",
+                "format":"image/jpeg",
+                "height":3456,
+                "width":5184,
+                "service":{
+                  "@context":"http://iiif.io/api/image/2/context.json",
+                  "@id":"http://localhost:8182/iiif/2/image05.jpg/",
+                  "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on":"https://media.nga.gov/public/manifests/canvas/61381.json"
             }
           ]
         }
