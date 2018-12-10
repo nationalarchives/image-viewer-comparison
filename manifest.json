@@ -23,7 +23,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/106383.json",
           "@type":"sc:Canvas",
-          "label":"Tiger",
+          "label":"blah",
           "height":3456,
           "width":5184,
           "images":[
