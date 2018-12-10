@@ -23,7 +23,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/106383.json",
           "@type":"sc:Canvas",
-          "label":"blah",
+          "label":"Image 01",
           "height":3456,
           "width":5184,
           "images":[
@@ -49,7 +49,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/61372.json",
           "@type":"sc:Canvas",
-          "label":"Snow leopard",
+          "label":"Image 02",
           "metadata":[
             {
               "label":"Date",
@@ -82,7 +82,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/106384.json",
           "@type":"sc:Canvas",
-          "label":"Jaguar",
+          "label":"Image 03",
           "height":3456,
           "width":5184,
           "images":[
@@ -108,7 +108,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/61371.json",
           "@type":"sc:Canvas",
-          "label":"Lion",
+          "label":"Image 04",
           "metadata":[
             {
               "label":"Date",
@@ -141,7 +141,7 @@
         {
           "@id":"https://media.nga.gov/public/manifests/canvas/61381.json",
           "@type":"sc:Canvas",
-          "label":"Lion",
+          "label":"Image 05",
           "metadata":[
             {
               "label":"Date",
