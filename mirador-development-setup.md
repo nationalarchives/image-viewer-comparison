@@ -14,7 +14,7 @@ In this task you will be using Node to run a web server from [these instructions
 
 2. Check your version of Node by running:
 ````
-node -version
+node -v
 ````
 
 3. Make sure http-server is installed:
@@ -46,4 +46,9 @@ npm start
 2. Load up Mirador in your web browser by going to:
 ````
 http://localhost:8000
+````
+
+3. Add a new item, then add a new object from URL by using the following URL:
+````
+http://localhost:8000/manifest/manifest.json
 ````

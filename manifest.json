@@ -1,177 +1,370 @@
 {
-  "@context":"http://iiif.io/api/presentation/2/context.json",
-  "@id":"https://media.nga.gov/public/manifests/nga_highlights.json",
-  "@type":"sc:Manifest",
-  "logo": "http://localhost:3000/logo.jpg",
-  "label":"Collection of Documents",
-  "metadata":[
-    {
-      "label":"Description",
-      "value":"Here is a series of common big cats."
-    }
-  ],
-  "description":"A selection of highlights from the National Gallery of Art",
-  "guid":"e61700b6-7cb9-4c14-92ab-4246a345ec71",
-  "viewingDirection":"left-to-right",
-  "viewingHint":"individuals",
-  "sequences":[
-    {
-      "@id":"https://media.nga.gov/public/manifests/sequence/normal.json",
-      "@type":"sc:Sequence",
-      "label":"Normal Order",
-      "canvases":[
-        {
-          "@id":"https://media.nga.gov/public/manifests/canvas/106383.json",
-          "@type":"sc:Canvas",
-          "label":"Image 01",
-          "height":3456,
-          "width":5184,
-          "images":[
-            {
-              "@type":"oa:Annotation",
-              "motivation":"sc:painting",
-              "resource":{
-                "@id":"http://localhost:8182/iiif/2/image01.jpg/full/full/0/default.jpg",
-                "@type":"dctypes:Image",
-                "format":"image/jpeg",
-                "height":1000,
-                "width":667,
-                "service":{
-                  "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/image01.jpg/",
-                  "profile":"http://iiif.io/api/image/2/level2.json"
-                }
-              },
-              "on":"https://media.nga.gov/public/manifests/canvas/106382.json"
-            }
-          ]
-        },
-        {
-          "@id":"https://media.nga.gov/public/manifests/canvas/61372.json",
-          "@type":"sc:Canvas",
-          "label":"Image 02",
-          "metadata":[
-            {
-              "label":"Date",
-              "value":"1883"
-            }
-          ],
-          "description":"Painting",
-          "height":3456,
-          "width":5184,
-          "images":[
-            {
-              "@type":"oa:Annotation",
-              "motivation":"sc:painting",
-              "resource":{
-                "@id":"http://localhost:8182/iiif/2/image02.jpg/full/full/0/default.jpg",
-                "@type":"dctypes:Image",
-                "format":"image/jpeg",
-                "height":3456,
-                "width":5184,
-                "service":{
-                  "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/image02.jpg/",
-                  "profile":"http://iiif.io/api/image/2/level2.json"
-                }
-              },
-              "on":"https://media.nga.gov/public/manifests/canvas/61371.json"
-            }
-          ]
-        },
-        {
-          "@id":"https://media.nga.gov/public/manifests/canvas/106384.json",
-          "@type":"sc:Canvas",
-          "label":"Image 03",
-          "height":3456,
-          "width":5184,
-          "images":[
-            {
-              "@type":"oa:Annotation",
-              "motivation":"sc:painting",
-              "resource":{
-                "@id":"http://localhost:8182/iiif/2/image03.jpg/full/full/0/default.jpg",
-                "@type":"dctypes:Image",
-                "format":"image/jpeg",
-                "height":1000,
-                "width":667,
-                "service":{
-                  "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/image03.jpg/",
-                  "profile":"http://iiif.io/api/image/2/level2.json"
-                }
-              },
-              "on":"https://media.nga.gov/public/manifests/canvas/106382.json"
-            }
-          ]
-        },
-        {
-          "@id":"https://media.nga.gov/public/manifests/canvas/61371.json",
-          "@type":"sc:Canvas",
-          "label":"Image 04",
-          "metadata":[
-            {
-              "label":"Date",
-              "value":"1883"
-            }
-          ],
-          "description":"Painting",
-          "height":3456,
-          "width":5184,
-          "images":[
-            {
-              "@type":"oa:Annotation",
-              "motivation":"sc:painting",
-              "resource":{
-                "@id":"http://localhost:8182/iiif/2/image04.jpg/full/full/0/default.jpg",
-                "@type":"dctypes:Image",
-                "format":"image/jpeg",
-                "height":3456,
-                "width":5184,
-                "service":{
-                  "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/image04.jpg/",
-                  "profile":"http://iiif.io/api/image/2/level2.json"
-                }
-              },
-              "on":"https://media.nga.gov/public/manifests/canvas/61371.json"
-            }
-          ]
-        },
-        {
-          "@id":"https://media.nga.gov/public/manifests/canvas/61381.json",
-          "@type":"sc:Canvas",
-          "label":"Image 05",
-          "metadata":[
-            {
-              "label":"Date",
-              "value":"1883"
-            }
-          ],
-          "description":"Painting",
-          "height":3456,
-          "width":5184,
-          "images":[
-            {
-              "@type":"oa:Annotation",
-              "motivation":"sc:painting",
-              "resource":{
-                "@id":"http://localhost:8182/iiif/2/image05.jpg/full/full/0/default.jpg",
-                "@type":"dctypes:Image",
-                "format":"image/jpeg",
-                "height":3456,
-                "width":5184,
-                "service":{
-                  "@context":"http://iiif.io/api/image/2/context.json",
-                  "@id":"http://localhost:8182/iiif/2/image05.jpg/",
-                  "profile":"http://iiif.io/api/image/2/level2.json"
-                }
-              },
-              "on":"https://media.nga.gov/public/manifests/canvas/61381.json"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://3447e307-52a3-4a0e-8386-a280c576e141",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://84fb3b4b-0e65-495b-bb70-32091c46ab92",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://c6c4738c-3b20-4680-906b-aade9fb71dae",
+					"@type": "sc:Canvas",
+					"label": "Page 1",
+					"height": 3926,
+					"width": 2272,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://179191f8-3e45-4305-8373-1b81608ef21f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/image01.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/image01.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3926,
+								"width": 2272
+							},
+							"on": "http://c6c4738c-3b20-4680-906b-aade9fb71dae"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ef10ceb7-b2a8-408b-bf27-53b31bde0d3c",
+					"@type": "sc:Canvas",
+					"label": "Page 2",
+					"height": 4177,
+					"width": 5929,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://20f8bfd5-ec2a-4d82-a87c-9b7a95a64ee6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/image02.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/image02.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4177,
+								"width": 5929
+							},
+							"on": "http://ef10ceb7-b2a8-408b-bf27-53b31bde0d3c"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c31decf4-d84a-49c8-8f0e-c2ccf00ef88e",
+					"@type": "sc:Canvas",
+					"label": "Page 3",
+					"height": 2221,
+					"width": 1723,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a5891128-304b-4fcb-a786-07bcd817cfa1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/image03.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/image03.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2221,
+								"width": 1723
+							},
+							"on": "http://c31decf4-d84a-49c8-8f0e-c2ccf00ef88e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d4a911d0-7b78-47a3-9923-56b7a101af78",
+					"@type": "sc:Canvas",
+					"label": "Page 4",
+					"height": 2124,
+					"width": 1428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a3d3b998-20cf-480f-8a16-3429fa2dfed3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/image04.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/image04.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2124,
+								"width": 1428
+							},
+							"on": "http://d4a911d0-7b78-47a3-9923-56b7a101af78"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@type": "sc:Canvas",
+					"label": "Page 5",
+					"height": 3000,
+					"width": 2068,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/image05.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/image05.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3000,
+								"width": 2068
+							},
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
 }
