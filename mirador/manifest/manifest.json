@@ -2,16 +2,19 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://3447e307-52a3-4a0e-8386-a280c576e141",
 	"@type": "sc:Manifest",
-	"label": "[Click to edit label]",
-	"metadata": [],
-	"description": [
+	"label": "Collection of Documents",
+	"logo": "http://localhost:3000/logo.jpg",
+	"metadata": [
 		{
-			"@value": "[Click to edit description]",
-			"@language": "en"
+			"label":"Description",
+			"value":"Here is a series of documents."
 		}
 	],
+	"description": "A selection of highlights from The National Archives",
 	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "[Click to edit attribution]",
+	"attribution": "The National Archives",
+	"viewingHint":"individuals",
+	"viewingDirection":"left-to-right",
 	"sequences": [
 		{
 			"@id": "http://84fb3b4b-0e65-495b-bb70-32091c46ab92",
