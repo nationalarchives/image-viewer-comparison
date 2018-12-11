@@ -1,0 +1,81 @@
+@import 'jquery-ui.less';
+
+.uv {
+    .centerPanel {
+
+        @img-path: '../../../modules/uv-avcenterpanel-module/img/';
+
+        .hover-preview {
+            .label {
+                height: 25px;
+            }
+        }
+
+        .iiif-av-component {
+
+            .controls-container {
+
+                .time-display {
+                    padding-top: 10px;
+                    
+                    @media only screen and (min-width: @watch-min-width) and (max-width: 600px) {
+                        display: none;
+                    }
+                }
+
+                .volume {
+
+                    display: inline-block;
+                    float: none;
+
+                    @media only screen and (min-width: @watch-min-width) and (max-width: 600px) {
+                        display: none;
+                    }
+
+                    .volume-slider {
+                        margin-top: 16px !important;
+                    }
+
+                }
+            }
+
+        }
+
+        // .options-container {
+
+        //     @margin-top: 110px;
+
+        //     .watch-mediaquery({
+        //         margin-top: @margin-top;
+        //     });
+
+        //     .mobile-landscape-mediaquery({
+        //         margin-top: @margin-top;
+        //     });
+
+        //     .mobile-portrait-mediaquery({
+        //         margin-top: @margin-top;
+        //     });
+
+        // }
+        
+    }
+}
+
+.uv.mobile {
+    .centerPanel {
+
+        .iiif-av-component {
+
+            .controls-container {
+
+                // hide the volume control on mobile
+                .volume {
+                    display: none;
+                }
+            }
+
+        }
+
+    }
+}
