@@ -8,7 +8,7 @@ This instructional will be comprised of three parts:
 
 ## Running the web server
 
-In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node)
+In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node){:target="_blank"}
 
 1. Using the terminal navigate to the folder `mirador` after cloning this repo.
 
