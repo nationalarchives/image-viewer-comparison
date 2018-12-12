@@ -19,9 +19,6 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 
 ## Development machine setup
-Steps for setting up dev environments for specific viewers can be found in a separate document.
-- [Mirador setup](mirador-development-setup.md)
-- [Universal viewer setup](uv-development-setup.md)
 
 ## Running an IIIF Image Server (Mac)
 
@@ -44,8 +41,6 @@ View the `info.json` at:
 
 [http://localhost:8182/iiif/2/image.jpg/info.json](http://localhost:8182/iiif/2/image.jpg/info.json)
 
-## Running a web server 
+## Running Mirador
 
-This server will serve the HTML page (in which our image viewer will run) and the `manifest.json` file
-
-From the `http_server` directory run `http-server -p 3000 --cors` to kick off a HTTP server running at [http://localhost:3000](http://localhost:3000)
+See [Mirador setup](mirador-development-setup.md)
