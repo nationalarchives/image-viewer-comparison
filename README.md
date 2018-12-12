@@ -19,6 +19,9 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 
 ## Development machine setup
+Steps for setting up dev environments for specific viewers can be found in a separate document.
+- [Mirador setup](mirador-development-setup.md)
+- [Universal viewer setup](uv-development-setup.md)
 
 ## Running an IIIF Image Server (Mac)
 
