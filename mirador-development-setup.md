@@ -1,7 +1,5 @@
 # Mirador Demo
 
-This instructional will be comprised of three parts:
-
 ## Running the web server
 
 ````
