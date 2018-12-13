@@ -41,8 +41,6 @@ View the `info.json` at:
 
 [http://localhost:8182/iiif/2/image.jpg/info.json](http://localhost:8182/iiif/2/image.jpg/info.json)
 
-## Running a web server 
+## Running Mirador
 
-This server will serve the HTML page (in which our image viewer will run) and the `manifest.json` file
-
-From the `http_server` directory run `http-server -p 3000 --cors` to kick off a HTTP server running at [http://localhost:3000](http://localhost:3000)
+See [Mirador setup](mirador-development-setup.md)
