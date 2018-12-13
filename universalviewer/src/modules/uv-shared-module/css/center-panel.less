@@ -1,0 +1,97 @@
+.uv {
+    .centerPanel {
+
+        .title {
+            font-size: @headings-size-xlarge;
+            color: @text-color;
+            padding: 0 20px 0 20px;
+
+            span {
+                line-height: 30px;
+            }
+        }
+
+        .content {
+
+            .attribution {
+
+                background: @gray-dark; // ie8
+                background: fadeout(@gray-dark, 30%);
+                position: absolute;
+                width: 190px;
+                margin: @margin-medium-horizontal @margin-small-horizontal @margin-xlarge-vertical @margin-large-horizontal;
+                font-size: @font-size-small;
+
+                .header {
+
+                    overflow: hidden;
+
+                    .title {
+                        width: 158px;
+                        min-height: 38px;
+                        font-size: @font-size-small;
+                        font-weight: bold;
+                        line-height: 18px;
+                        float: left;
+                        padding: @padding-medium;
+                        text-transform: uppercase;
+                    }
+
+                    .close {
+                      background: 0 0;
+                      border: 0;
+                      color: @text-color;
+                      font-size: 1.2rem;
+                      font-weight: 700;
+                      opacity: 0.5;
+                      position: relative;
+                      float: right;
+                      right: 8px;
+                      top: 4px;
+                      padding: 4px 8px;
+                      line-height: 1;
+                      text-shadow: 0 1px 0 #fff;
+                      &:hover, &:focus {
+                        opacity: .75;
+                      }
+                      &:focus {
+                        .tab-focus(@text-color);
+                      }
+                    }
+                }
+
+                .main {
+
+                    margin-top: @margin-small-vertical;
+                    padding: @padding-medium;
+
+                    img {
+                        margin-top: @margin-small-vertical;
+                        margin-bottom: @margin-small-vertical;
+                        max-width: 100px;
+                    }
+
+                    a:not(.toggle) {
+                        color: @link-color;
+                        &:link {
+                            color: @link-color;
+                        }
+                        &:hover {
+                            color: @link-color;
+                        }
+                        &:visited {
+                            color: @link-color;
+                        }
+                        &:active {
+                            color: @link-color;
+                        }
+                    }
+
+                    .attribution-text {
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
