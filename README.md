@@ -4,16 +4,16 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 | Feature                                   | Universal Viewer      | Mirador           | Notes
 | -------------                             |:-------------:        | -----:            | -----:
-| Zoom                                      |                       |                   |
-| Pan                                       |                       |                   |
+| Zoom                                      |      [x]              |                   |
+| Pan                                       |      [x]              |                   |
 | Bookmark individual image                 |                       |                   |
 | Add notes to individual image             |                       |                   |
-| Print - individual image                  |                       |                   |
+| Print - individual image                  |      [x]              |                   |
 | Print - all images                        |                       |                   |
-| Download - individual image               |                       |                   |
-| View description (of record, not image)   |                       |                   |
-| Navigate multiple pages                   |                       |                   |
-| Navigate multiple pages - jump to page    |                       |                   |
+| Download - individual image               |      [x]              |                   |
+| View description (of record, not image)   |      [x]              |                   |
+| Navigate multiple pages                   |      [x]              |                   |
+| Navigate multiple pages - jump to page    |      [x]              |                   |
 | Image manipulation - core IIIF            |                       |                   |
 | Image manipulation - additional           |                       |                   |
 
