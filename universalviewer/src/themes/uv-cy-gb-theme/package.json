@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "@universalviewer/uv-cy-gb-theme@1.1.2",
-      "/home/captain-annabel/Desktop/work/image-viewer-comparison/universalviewer"
-    ]
-  ],
   "_from": "@universalviewer/uv-cy-gb-theme@1.1.2",
   "_id": "@universalviewer/uv-cy-gb-theme@1.1.2",
   "_inBundle": false,
@@ -26,7 +20,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@universalviewer/uv-cy-gb-theme/-/uv-cy-gb-theme-1.1.2.tgz",
-  "_spec": "1.1.2",
+  "_shasum": "6d816f36dff18046d00c28fa96173b9c63c759a4",
+  "_spec": "@universalviewer/uv-cy-gb-theme@1.1.2",
   "_where": "/home/captain-annabel/Desktop/work/image-viewer-comparison/universalviewer",
   "author": {
     "name": "@edsilv"
@@ -34,6 +29,8 @@
   "bugs": {
     "url": "https://github.com/UniversalViewer/uv-cy-gb-theme/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "",
   "homepage": "https://github.com/UniversalViewer/uv-cy-gb-theme#readme",
   "license": "MIT",
