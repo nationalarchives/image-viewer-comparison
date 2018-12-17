@@ -1,0 +1,48 @@
+.uv {
+
+    .footerPanel {
+
+        .searchOptions {
+            width: 425px;
+        }
+
+        .options {
+            height: 42px;
+            
+            .btn {
+              	color: white;
+                font-size: auto;
+                  
+                &.moreInfo {
+                    display: none;
+                }
+              
+				&.fullScreen,
+				&.exitFullscreen {
+					float: right;
+              	}
+            }
+        }
+
+        .options.minimiseButtons {
+            .btn {
+                font-size: 0;
+            }
+        }
+    }
+}
+
+.uv.lightbox {
+
+    .footerPanel {
+        .options {
+            a.imageBtn {
+                &.normal {
+                    background: data-uri('@{img-path}close_lightbox.png');
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+
+}

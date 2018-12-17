@@ -1,0 +1,43 @@
+{
+  "_from": "@universalviewer/uv-en-gb-theme@1.1.2",
+  "_id": "@universalviewer/uv-en-gb-theme@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-d4jX+73bRJdvQqLwxxb2J8IeVQkim2MuaPbe+h7DABEVgltvt+u15WFdi0Cy/1CmHW1lXdYoxlgRrUjXgGrBmg==",
+  "_location": "/@universalviewer/uv-en-gb-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@universalviewer/uv-en-gb-theme@1.1.2",
+    "name": "@universalviewer/uv-en-gb-theme",
+    "escapedName": "@universalviewer%2fuv-en-gb-theme",
+    "scope": "@universalviewer",
+    "rawSpec": "1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@universalviewer/uv-en-gb-theme/-/uv-en-gb-theme-1.1.2.tgz",
+  "_shasum": "b6b9dcc957b5d63067e56daef7a298f7c0a21458",
+  "_spec": "@universalviewer/uv-en-gb-theme@1.1.2",
+  "_where": "/home/captain-annabel/Desktop/work/image-viewer-comparison/universalviewer",
+  "author": {
+    "name": "@edsilv"
+  },
+  "bugs": {
+    "url": "https://github.com/UniversalViewer/uv-en-gb-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/UniversalViewer/uv-en-gb-theme#readme",
+  "license": "MIT",
+  "name": "@universalviewer/uv-en-gb-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversalViewer/uv-en-gb-theme.git"
+  },
+  "version": "1.1.2"
+}
