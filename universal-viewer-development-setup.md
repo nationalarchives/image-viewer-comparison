@@ -1,4 +1,4 @@
-# Mirador Demo
+# Universal Viewer Demo
 
 This instructional will be comprised of three parts:
 
