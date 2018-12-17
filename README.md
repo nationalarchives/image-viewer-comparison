@@ -98,4 +98,3 @@ cd universalviewer && npm i && grunt build
 ````
 http://localhost:3000/uv.html
 ````
->>>>>>> README docs now contain setup for both UV and mirador
