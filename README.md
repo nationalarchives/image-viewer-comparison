@@ -4,18 +4,18 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 | Feature                                   | Universal Viewer      | Mirador           | Notes
 | -------------                             |:-------------:        | -----:            | -----:
-| Zoom                                      |                       |                   |
-| Pan                                       |                       |                   |
+| Zoom                                      |                       |      Yes          |
+| Pan                                       |                       |      Yes          |
 | Bookmark individual image                 |                       |                   |
-| Add notes to individual image             |                       |                   |
+| Add notes to individual image             |                       |      Yes          |
 | Print - individual image                  |                       |                   |
 | Print - all images                        |                       |                   |
 | Download - individual image               |                       |                   |
-| View description (of record, not image)   |                       |                   |
-| Navigate multiple pages                   |                       |                   |
+| View description (of record, not image)   |                       |      Yes          |
+| Navigate multiple pages                   |                       |      Yes          |
 | Navigate multiple pages - jump to page    |                       |                   |
-| Image manipulation - core IIIF            |                       |                   |
-| Image manipulation - additional           |                       |                   |
+| Image manipulation - core IIIF            |                       |      Yes          |
+| Image manipulation - additional           |                       |      Yes          |
 
 
 ## Development machine setup
