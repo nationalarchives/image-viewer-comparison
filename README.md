@@ -77,7 +77,7 @@ http-server -p 3000 --cors
 
 ### Running Mirador
 
-1. Run the following commands:
+1. Run the following commands at the project root:
 ````
 cd mirador && npm i && npm start
 ````
@@ -89,7 +89,7 @@ http://localhost:8000
 
 ### Running Universal Viewer
 
-1. Run the following commands within the universalviewer folder:
+1. Run the following commands at the project root:
 ````
 cd universalviewer && npm i && grunt build
 ````
