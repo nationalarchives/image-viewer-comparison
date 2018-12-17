@@ -1,4 +1,4 @@
-# Mirador Demo
+# Universal Viewer Demo
 
 This instructional will be comprised of three parts:
 
@@ -30,7 +30,7 @@ npm install http-server -g
 
 5. Navigate back out to the project root and run the command below to start up the server:
 ````
-http-server -p 3000 --cors
+http-server -p 8000 --cors
 ````
 
 ## Running the image server
