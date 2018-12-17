@@ -4,18 +4,18 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 | Feature                                   | Universal Viewer      | Mirador           | Notes
 | -------------                             |:-------------:        | -----:            | -----:
-| Zoom                                      |      [x]              |                   |
-| Pan                                       |      [x]              |                   |
-| Bookmark individual image                 |                       |                   |
-| Add notes to individual image             |                       |                   |
-| Print - individual image                  |      [x]              |                   |
-| Print - all images                        |                       |                   |
-| Download - individual image               |      [x]              |                   |
-| View description (of record, not image)   |      [x]              |                   |
-| Navigate multiple pages                   |      [x]              |                   |
-| Navigate multiple pages - jump to page    |      [x]              |                   |
-| Image manipulation - core IIIF            |                       |                   |
-| Image manipulation - additional           |                       |                   |
+| Zoom                                      |      - [x]            |                   |
+| Pan                                       |      - [x]            |                   |
+| Bookmark individual image                 |      - [ ]            |                   |
+| Add notes to individual image             |      - [ ]            |                   |
+| Print - individual image                  |      - [x]            |                   |
+| Print - all images                        |      - [ ]            |                   |
+| Download - individual image               |      - [x]            |                   |
+| View description (of record, not image)   |      - [x]            |                   |
+| Navigate multiple pages                   |      - [x]            |                   |
+| Navigate multiple pages - jump to page    |      - [x]            |                   |
+| Image manipulation - core IIIF            |      - [ ]            |                   |
+| Image manipulation - additional           |      - [ ]            |                   |
 
 
 ## Development machine setup
