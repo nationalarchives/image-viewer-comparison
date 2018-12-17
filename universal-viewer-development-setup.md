@@ -30,7 +30,7 @@ npm install http-server -g
 
 5. Navigate back out to the project root and run the command below to start up the server:
 ````
-http-server -p 3000 --cors
+http-server -p 8000 --cors
 ````
 
 ## Running the image server
@@ -45,5 +45,5 @@ java -Dcantaloupe.config=cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
 
 1. Load up the Universal Viewer in your web browser by going to:
 ````
-http://localhost:3000/uv.html
+http://localhost:8000/uv.html
 ````
