@@ -48,7 +48,7 @@ java -Dcantaloupe.config=cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
 
 View the `info.json` at: 
 
-[http://localhost:8182/iiif/2/image.jpg/info.json](http://localhost:8182/iiif/2/image.jpg/info.json)
+[http://localhost:8182/iiif/2/image01.jpg/info.json](http://localhost:8182/iiif/2/image01.jpg/info.json)
 
 ### Running an IIIF Image Server (Windows)
 
