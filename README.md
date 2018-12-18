@@ -20,27 +20,81 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 ## Development machine setup
 
-## Running an IIIF Image Server (Mac)
+This is a three-step process:
 
-This directory contains the Java files for a Cantaloupe Image Server and an `images` directory from which local images are served. 
+1. Run the image server:
+	* [On Unix systems](##running-an-iiif-image-server-unix)
+	* [On Unix systems](##running-an-iiif-image-server-windows)
+2. [Running the web server](##running-the-web-server)
+3. Starting the viewer:
+	* [Mirador](##running-mirador)
+	* [Universal Viewer](##running-universal-viewer)
 
-To run the Image Server:
+### Running an IIIF Image Server (Unix)
 
-1. Copy `cantaloupe.properties.sample` and save it as `cantaloupe.properties`. Then set `FilesystemSource.BasicLookupStrategy.path_prefix` to the absolute path to your `images` directory in this repository
-2. run the command below (replacing `/Users/gwynjones/PhpstormProjects/iiif_local/cantaloupe-4.0.2/cantaloupe.properties` with the path to your local `cantaloupe.properties` file): 
+The `cantaloupe-4.0.2` directory contains the Java files for a Cantaloupe Image Server and an `images` directory from which local images are served. 
+
+To run the Image Server on a unix machine:
+
+1. Using the terminal navigate to `cantaloupe-4.0.2/unix` folder and run the following command:
 
 ```bash
-java -Dcantaloupe.config=/Users/gwynjones/PhpstormProjects/iiif_local/cantaloupe-4.0.2/cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
+java -Dcantaloupe.config=cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
 ```
 
-To view an image visit the following URL (replacing `image.jpg` with relevant filename): 
+2. To view an image visit the following URL: 
 
-[http://localhost:8182/iiif/2/image.jpg/0,0,2272,3926/full/0/default.jpg](http://localhost:8182/iiif/2/image.jpg/0,0,2272,3926/full/0/default.jpg)
+[http://localhost:8182/iiif/2/image01.jpg/0,0,2272,3926/full/0/default.jpg](http://localhost:8182/iiif/2/image01.jpg/0,0,2272,3926/full/0/default.jpg)
 
 View the `info.json` at: 
 
-[http://localhost:8182/iiif/2/image.jpg/info.json](http://localhost:8182/iiif/2/image.jpg/info.json)
+[http://localhost:8182/iiif/2/image01.jpg/info.json](http://localhost:8182/iiif/2/image01.jpg/info.json)
 
-## Running Mirador
+### Running an IIIF Image Server (Windows)
 
-See [Mirador setup](mirador-development-setup.md)
+Documentation in progress
+
+### Running the web server
+
+In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node) in order to host the manifest file.
+
+1. Using the terminal navigate to the project root
+
+2. Check your version of Node by running:
+````
+node -v
+````
+
+3. Make sure http-server is installed:
+````
+npm install http-server -g
+````
+
+4. Run the command below to start up the server:
+````
+http-server -p 3000 --cors
+````
+
+### Running Mirador
+
+1. Run the following commands at the project root:
+````
+cd mirador && npm i && npm start
+````
+
+2. Load up Mirador in your web browser by going to:
+````
+http://localhost:8000
+````
+
+### Running Universal Viewer
+
+1. Run the following commands at the project root:
+````
+cd universalviewer && npm i && grunt build
+````
+
+2. Load up Universal Viewer in your web browser by going to:
+````
+http://localhost:3000/uv.html
+````
