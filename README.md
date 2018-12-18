@@ -42,9 +42,9 @@ To run the Image Server on a unix machine:
 java -Dcantaloupe.config=cantaloupe.properties -Xmx2g -jar cantaloupe-4.0.2.war
 ```
 
-2. To view an image visit the following URL (replacing `image.jpg` with relevant filename): 
+2. To view an image visit the following URL: 
 
-[http://localhost:8182/iiif/2/image.jpg/0,0,2272,3926/full/0/default.jpg](http://localhost:8182/iiif/2/image.jpg/0,0,2272,3926/full/0/default.jpg)
+[http://localhost:8182/iiif/2/image01.jpg/0,0,2272,3926/full/0/default.jpg](http://localhost:8182/iiif/2/image01.jpg/0,0,2272,3926/full/0/default.jpg)
 
 View the `info.json` at: 
 
@@ -56,7 +56,7 @@ Documentation in progress
 
 ### Running the web server
 
-In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node) in order to host the manifest.
+In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node) in order to host the manifest file.
 
 1. Using the terminal navigate to the project root
 
