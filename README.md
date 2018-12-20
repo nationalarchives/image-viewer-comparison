@@ -24,7 +24,7 @@ This is a three-step process:
 
 1. Run the image server:
 	* [On Unix systems](#running-an-iiif-image-server-unix)
-	* [On Unix systems](#running-an-iiif-image-server-windows)
+	* [On Windows systems](#running-an-iiif-image-server-windows)
 2. [Running the web server](#running-the-web-server)
 3. Starting the viewer:
 	* [Mirador](#running-mirador)
