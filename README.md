@@ -22,6 +22,15 @@ This repository has been created to coordinate developers' work in comparing Ope
 
 This is a three-step process:
 
+### Daily-use - Unix users
+
+Once you've set up your development environment once (as detailed in [Initial set-up](#initial-set-up) below), Unix users can use: 
+
+* `npm start` to start all the servers and open all browsers etc.
+* `npm stop` to close everything down
+
+### Initial set-up
+
 1. Run the image server:
 	* [On Unix systems](#running-an-iiif-image-server-unix)
 	* [On Windows systems](#running-an-iiif-image-server-windows)
@@ -30,7 +39,7 @@ This is a three-step process:
 	* [Mirador](#running-mirador)
 	* [Universal Viewer](#running-universal-viewer)
 
-### Running an IIIF Image Server (Unix)
+#### Running an IIIF Image Server (Unix)
 
 The `cantaloupe-4.0.2` directory contains the Java files for a Cantaloupe Image Server and an `images` directory from which local images are served. 
 
@@ -50,11 +59,11 @@ View the `info.json` at:
 
 [http://localhost:8182/iiif/2/image01.jpg/info.json](http://localhost:8182/iiif/2/image01.jpg/info.json)
 
-### Running an IIIF Image Server (Windows)
+#### Running an IIIF Image Server (Windows)
 
 Documentation in progress
 
-### Running the web server
+#### Running the web server
 
 In this task you will be using Node to run a web server from [these instructions](http://ronallo.com/iiif-workshop-new/preparation/web-server.html#node) in order to host the manifest file.
 
@@ -75,7 +84,7 @@ npm install http-server -g
 http-server -p 3000 --cors
 ````
 
-### Running Mirador
+#### Running Mirador
 
 1. Run the following commands at the project root:
 ````
@@ -87,7 +96,7 @@ cd mirador && npm i && npm start
 http://localhost:8000
 ````
 
-### Running Universal Viewer
+#### Running Universal Viewer
 
 1. Run the following commands at the project root:
 ````
