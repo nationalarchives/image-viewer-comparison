@@ -6,12 +6,14 @@ cd cantaloupe-4.0.2/unix && java -Dcantaloupe.config=cantaloupe.properties -Xmx2
 # Start the http-server
 http-server -p 3000 --cors &
 
-# Start Mirador and open the viewer in default browser
+# Start Mirador
 cd mirador && npm start &
 
-# Start Universal Viewer and open the viewer in default browser
+# Start Universal Viewer
 cd universalviewer && grunt build &
 
+# Start Tify
+cd tify && http-server -p 3500 --cors &
 
 # Poll to see if our Image Server is running and, if so, open our browser windows
 
@@ -35,9 +37,9 @@ if ping -c 10 -i 2 http://localhost:8182/iiif/2/image01.jpg/info.json; then
     printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
     printf "${GREEN}Connected to Cantaloupe image server ${i}${NO_COLOUR}\n"
     printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-    open http://localhost:8182/iiif/2/image01.jpg/info.json
     open http://localhost:8000
     open http://localhost:3000/uv.html
+    open http://localhost:3500
 else
     print_tna
     printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
