@@ -2,20 +2,20 @@
 
 This repository has been created to coordinate developers' work in comparing Open Source IIIF image viewers. The related issue and tasks are at https://github.com/nationalarchives/Subscription-Offering/issues/143
 
-| Feature                                   | Universal Viewer      | Mirador           | Notes
-| -------------                             |:-------------:        | :-:            | :----
-| Zoom                                      |     Yes               |      Yes          |
-| Pan                                       |     Yes               |      Yes          |
-| Bookmark individual image                 |                       |                   |
-| Add notes to individual image             |                       |      Yes          |
-| Print - individual image                  |     Yes               |                   |
-| Print - all images                        |                       |                   |
-| Download - individual image               |     Yes               |                   |Mirador - Save image as
-| View description (of record, not image)   |     Yes               |      Yes          |
-| Navigate multiple pages                   |     Yes               |      Yes          |
-| Navigate multiple pages - jump to page    |     Yes               |                   |
-| Image manipulation - core IIIF            |                       |      Yes          |Only on the frontend.
-| Image manipulation - additional           |                       |      Yes          |
+| Feature                                   | Universal Viewer      | Mirador           | Tify | Notes
+| -------------                             |:-------------:        | :-:               | :-: | :----
+| Zoom                                      |     Yes               |      Yes          | TBC |
+| Pan                                       |     Yes               |      Yes          | TBC |
+| Bookmark individual image                 |                       |                   | TBC |
+| Add notes to individual image             |                       |      Yes          | TBC |
+| Print - individual image                  |     Yes               |                   | TBC |
+| Print - all images                        |                       |                   | TBC |
+| Download - individual image               |     Yes               |                   | TBC |Mirador - Save image as
+| View description (of record, not image)   |     Yes               |      Yes          | TBC |
+| Navigate multiple pages                   |     Yes               |      Yes          | TBC |
+| Navigate multiple pages - jump to page    |     Yes               |                   | TBC |
+| Image manipulation - core IIIF            |                       |      Yes          | TBC |Only on the frontend.
+| Image manipulation - additional           |                       |      Yes          | TBC |
 
 ## Daily use
 
