@@ -32,17 +32,39 @@ function print_tna {
     printf "          \_/ \_| \_/\_| |_/\n\n"
 }
 
-if ping -c 10 -i 2 http://localhost:8182/iiif/2/image01.jpg/info.json; then
-    print_tna
-    printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-    printf "${GREEN}Connected to Cantaloupe image server ${i}${NO_COLOUR}\n"
-    printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-    open http://localhost:8000
-    open http://localhost:3000/uv.html
-    open http://localhost:3500
-else
-    print_tna
-    printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-    printf "${RED}Cannot connect to Cantaloupe image server ${i}${NO_COLOUR}\n"
-    printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-fi
+image_server_status="not_connected"
+
+while [ $image_server_status=="not_connected" ]
+
+do
+    printf $image_server_status;
+
+    if curl http://localhost:8182/iiif/2/image01.jpg/info.json; then
+
+        print_tna
+
+        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
+        printf "${GREEN}Connected tlo Cantaloupe image server ${i}${NO_COLOUR}\n"
+        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
+
+        open http://localhost:8000
+        open http://localhost:3000/uv.html
+        open http://localhost:3500
+
+        $image_server_status="connected"
+
+        break
+
+    else
+
+        print_tna
+
+        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
+        printf "${RED}Cannot connect to Cantaloupe image server ${i}${NO_COLOUR}\n"
+        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
+        
+    fi
+
+    sleep 3;
+
+done
