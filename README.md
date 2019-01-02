@@ -85,7 +85,7 @@ http://127.0.0.1:3000/manifest.json
 ````
 
 ### Auto launch viewers
-1. Run the following commands to start/launch all three image viewer in their respectives tabs
+1. Run the following commands to start/launch all three image viewer in their respective tabs
 ````
 npm start
 ````
