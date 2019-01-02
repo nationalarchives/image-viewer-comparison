@@ -75,6 +75,17 @@ npm install http-server -g
 http-server -p 3000 --cors
 ````
 
+5. Preview the manifest file:
+````
+http://localhost:3000/manifest.json
+````
+
+### Auto launch viewers
+1. Run the following commands to start/launch all three image viewer in their respectives tabs
+````
+npm start
+````
+
 ### Running Mirador
 
 1. Run the following commands at the project root:
