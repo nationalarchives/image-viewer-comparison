@@ -63,7 +63,7 @@ do
 
         $image_server_status="connected"
 
-        say "triple eye eff server is running"
+        say "triple eye eff server running"
 
         break
 
@@ -76,8 +76,6 @@ do
         printf "${EMPHASIS}#############################################${NO_COLOUR}\n"
         printf "${RED} 👎 Cannot connect to Cantaloupe image server ${i}${NO_COLOUR}\n"
         printf "${EMPHASIS}#############################################${NO_COLOUR}\n"
-
-        say "triple eye eff server is down" --voice "Bad news"
 
     fi
 
