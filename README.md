@@ -2,23 +2,31 @@
 
 This repository has been created to coordinate developers' work in comparing Open Source IIIF image viewers. The related issue and tasks are at https://github.com/nationalarchives/Subscription-Offering/issues/143
 
-| Feature                                   | Universal Viewer      | Mirador           | Notes
-| -------------                             |:-------------:        | :-:            | :----
-| Zoom                                      |     Yes               |      Yes          |
-| Pan                                       |     Yes               |      Yes          |
-| Bookmark individual image                 |                       |                   |
-| Add notes to individual image             |                       |      Yes          |
-| Print - individual image                  |     Yes               |                   |
-| Print - all images                        |                       |                   |
-| Download - individual image               |     Yes               |                   |Mirador - Save image as
-| View description (of record, not image)   |     Yes               |      Yes          |
-| Navigate multiple pages                   |     Yes               |      Yes          |
-| Navigate multiple pages - jump to page    |     Yes               |                   |
-| Image manipulation - core IIIF            |                       |      Yes          |Only on the frontend.
-| Image manipulation - additional           |                       |      Yes          |
+| Feature                                   | Universal Viewer      | Mirador           | Tify | Notes
+| -------------                             |:-------------:        | :-:               | :-: | :----
+| Zoom                                      |     Yes               |      Yes          | TBC |
+| Pan                                       |     Yes               |      Yes          | TBC |
+| Bookmark individual image                 |                       |                   | TBC |
+| Add notes to individual image             |                       |      Yes          | TBC |
+| Print - individual image                  |     Yes               |                   | TBC |
+| Print - all images                        |                       |                   | TBC |
+| Download - individual image               |     Yes               |                   | TBC |Mirador - Save image as
+| View description (of record, not image)   |     Yes               |      Yes          | TBC |
+| Navigate multiple pages                   |     Yes               |      Yes          | TBC |
+| Navigate multiple pages - jump to page    |     Yes               |                   | TBC |
+| Image manipulation - core IIIF            |                       |      Yes          | TBC |Only on the frontend.
+| Image manipulation - additional           |                       |      Yes          | TBC |
 
+## Daily use
 
-## Development machine setup
+Once you've followed the steps outlined in 'Development machine setup - first setup' you can use these command
+
+### Auto launch viewers in default browser
+
+* `npm start` will launch all image viewers in their respective tabs
+* `npm stop` kills all related processes (note: this included shutting down Chrome and Safari)
+
+## Development machine setup - _first setup_
 
 This is a three-step process:
 
@@ -75,6 +83,15 @@ npm install http-server -g
 http-server -p 3000 --cors
 ````
 
+5. Preview the manifest file:
+````
+http://localhost:3000/manifest.json
+
+or
+
+http://127.0.0.1:3000/manifest.json
+````
+
 ### Running Mirador
 
 1. Run the following commands at the project root:
@@ -98,3 +115,11 @@ cd universalviewer && npm i && grunt build
 ````
 http://localhost:3000/uv.html
 ````
+
+### Running Tify
+
+Run the following command at the project root:
+
+```bash
+cd tify && http-server -p 3500 --cors & open http://localhost:3500
+```
