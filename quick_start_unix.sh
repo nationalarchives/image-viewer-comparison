@@ -24,12 +24,18 @@ EMPHASIS='\033[1;36m'
 NO_COLOUR='\033[0m'
 
 function print_tna {
-    printf "         _____ _   _   ___ \n"
-    printf "        |_   _| \ | | / _ \ \n"
-    printf "          | | |  \| |/ /_\ \\n"
-    printf "          | | | . \` ||  _  |\n"
-    printf "          | | | |\  || | | |\n"
-    printf "          \_/ \_| \_/\_| |_/\n\n"
+    clear
+    printf "${RED}                  \`.-::///.        \n      ${NO_COLOUR}"
+    printf "${RED}          ---..\`/yyyys.            \n      ${NO_COLOUR}"
+    printf "${RED}        -s.    \`s++yyys\`          \n      ${NO_COLOUR}"
+    printf "${RED}       .yy\`    oo  oyyyo\`         \n      ${NO_COLOUR}"
+    printf "${RED}       ./.    +s\`  \`syyyo         \n      ${NO_COLOUR}"
+    printf "${RED}             :y/----/yyyy+          \n      ${NO_COLOUR}"
+    printf "${RED}            -yyyyyyyyyyyyy/         \n      ${NO_COLOUR}"
+    printf "${RED}           -s.\`\`\`\`\`\`\`\`:yyyy:\n      ${NO_COLOUR}"
+    printf "${RED}  .       :+\`          /yyyy-      \n      ${NO_COLOUR}"
+    printf "${RED}\`oyo:-.-:/.             :////      \n      ${NO_COLOUR}"
+    printf "${RED} .:///-.                            \n      ${NO_COLOUR}"
 }
 
 image_server_status="not_connected"
@@ -43,9 +49,13 @@ do
 
         print_tna
 
-        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-        printf "${GREEN}Connected tlo Cantaloupe image server ${i}${NO_COLOUR}\n"
-        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
+        printf "\n"
+
+        printf "${EMPHASIS}########################################${NO_COLOUR}\n"
+        printf "${GREEN} 👍 Connected to Cantaloupe image server ${i}${NO_COLOUR}\n"
+        printf "${EMPHASIS}########################################${NO_COLOUR}\n"
+
+        printf "\n\n\n"
 
         open http://localhost:8000
         open http://localhost:3000/uv.html
@@ -53,16 +63,22 @@ do
 
         $image_server_status="connected"
 
+        say "triple eye eff server is running"
+
         break
 
     else
 
         print_tna
 
-        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-        printf "${RED}Cannot connect to Cantaloupe image server ${i}${NO_COLOUR}\n"
-        printf "${EMPHASIS}#########################################${NO_COLOUR}\n"
-        
+        printf "\n"
+
+        printf "${EMPHASIS}#############################################${NO_COLOUR}\n"
+        printf "${RED} 👎 Cannot connect to Cantaloupe image server ${i}${NO_COLOUR}\n"
+        printf "${EMPHASIS}#############################################${NO_COLOUR}\n"
+
+        say "triple eye eff server is down" --voice "Bad news"
+
     fi
 
     sleep 3;
