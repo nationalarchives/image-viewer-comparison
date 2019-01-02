@@ -78,12 +78,21 @@ http-server -p 3000 --cors
 5. Preview the manifest file:
 ````
 http://localhost:3000/manifest.json
+
+or
+
+http://127.0.0.1:3000/manifest.json
 ````
 
 ### Auto launch viewers
 1. Run the following commands to start/launch all three image viewer in their respectives tabs
 ````
 npm start
+````
+
+2. To close the image viewer applications run the command and kill all processes.
+````
+npm stop
 ````
 
 ### Running Mirador
