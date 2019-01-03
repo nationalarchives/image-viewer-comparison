@@ -37,6 +37,7 @@ This is a three-step process:
 3. Starting the viewer:
 	* [Mirador](#running-mirador)
 	* [Universal Viewer](#running-universal-viewer)
+	* [Tify](#running-tify)
 
 ### Running an IIIF Image Server (Unix)
 
@@ -94,27 +95,17 @@ http://127.0.0.1:3000/manifest.json
 
 ### Running Mirador
 
-1. Run the following commands at the project root:
-````
-cd mirador && npm i && npm start
-````
-
-2. Load up Mirador in your web browser by going to:
-````
-http://localhost:8000
-````
+Run the following commands at the project root:
+```bash
+cd mirador && npm i && npm start & open http://localhost:8000
+```
 
 ### Running Universal Viewer
 
-1. Run the following commands at the project root:
-````
-cd universalviewer && npm i && grunt build
-````
-
-2. Load up Universal Viewer in your web browser by going to:
-````
-http://localhost:3000/uv.html
-````
+Run the following commands at the project root:
+```bash
+cd universalviewer && npm i && grunt build & open http://localhost:3000/uv.html
+```
 
 ### Running Tify
 
