@@ -1,0 +1,1 @@
+release: ./full_install_and_start.sh
