@@ -1,7 +1,7 @@
 {
   "name": "image-viewer-comparison",
   "scripts": {
-    "start": "sh quick_start_unix.sh",
+    "start": "sh full_install_and_start.sh",
     "stop": "sh quick_stop_unix.sh"
   }
 }
