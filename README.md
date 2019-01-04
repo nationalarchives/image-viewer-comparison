@@ -6,6 +6,8 @@ This repository has been created to coordinate developers' work in comparing Ope
 | -------------                             |:-------------:    | :-:       | :-:    | :----
 | Zoom                                      | Yes               |  Yes      | Yes    |
 | Pan                                       | Yes               |  Yes      | Yes    |
+| Rotate                                       | Yes               |  Yes      | Yes    |
+| Reset                                       | No               |  Yes      | Yes    |**Tify** - reset only works on `Brigtness`, `Contrast` and `Satiration` changes
 | Bookmark individual image                 |                   |           |        |
 | Add notes to individual image             |                   |  Yes      |        |
 | Print - individual image                  | Yes               |           |        |
@@ -16,6 +18,11 @@ This repository has been created to coordinate developers' work in comparing Ope
 | Navigate multiple pages - jump to page    | Yes               |           | Yes    |
 | Image manipulation - core IIIF            |                   |  Some     | Some   |
 | Image manipulation - additional           |                   |  Yes      | Yes    |
+| Client-Side manipulation - Brigthness           |              No     |  Yes      | Yes    |
+| Client-Side manipulation - Contrast           |                  No |  Yes      | Yes    |
+| Client-Side manipulation - Saturation           |                   No|  Yes      | Yes    |
+| Client-Side manipulation - Grayscale           |                   No|  Yes      | Yes    |
+| Client-Side manipulation - Invert colors           |                   No|  Yes      | No    |
 
 ## Daily use
 
