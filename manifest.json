@@ -29,7 +29,7 @@
 				{
 					"@id": "http://c6c4738c-3b20-4680-906b-aade9fb71dae",
 					"@type": "sc:Canvas",
-					"label": "Page 1",
+					"label": "Antarctica document",
 					"height": 3926,
 					"width": 2272,
 					"images": [
@@ -97,7 +97,7 @@
 				{
 					"@id": "http://ef10ceb7-b2a8-408b-bf27-53b31bde0d3c",
 					"@type": "sc:Canvas",
-					"label": "Page 2",
+					"label": "A detailed map",
 					"height": 4177,
 					"width": 5929,
 					"images": [
@@ -165,7 +165,7 @@
 				{
 					"@id": "http://c31decf4-d84a-49c8-8f0e-c2ccf00ef88e",
 					"@type": "sc:Canvas",
-					"label": "Page 3",
+					"label": "Shakespeare's Will",
 					"height": 2221,
 					"width": 1723,
 					"images": [
@@ -233,7 +233,7 @@
 				{
 					"@id": "http://d4a911d0-7b78-47a3-9923-56b7a101af78",
 					"@type": "sc:Canvas",
-					"label": "Page 4",
+					"label": "State Paper Office",
 					"height": 2124,
 					"width": 1428,
 					"images": [
@@ -301,7 +301,7 @@
 				{
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
-					"label": "Page 5",
+					"label": "The King's Players",
 					"height": 3000,
 					"width": 2068,
 					"images": [
