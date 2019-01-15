@@ -2,6 +2,8 @@
 
 This brief review of Universal Viewer (UV) is based upon points contained in [Checkpoint 5: pre-release checks](https://github.com/nationalarchives/development-guide/blob/master/development-guide.md#checkpoint-5-pre-release-checks) of The National Archives' [Development Guide](https://github.com/nationalarchives/development-guide/blob/master/development-guide.md#checkpoint-5-pre-release-checks). It is not comprehensive but does surface some of the things we would identify for software developed in-house. 
 
+Having also approached the IIIF community I was directed to a number of accessibility related issues identified by [Stanford University Digital Library](https://github.com/sul-dlss/universalviewer/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Aaccessibility+) 
+
 ## Release version is WCAG 2.0 compliant at AA
 
 While this is not a full accessibility review, this section lists aspects of UV that are or may be relevant to WCAG compliance.
