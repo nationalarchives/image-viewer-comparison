@@ -369,7 +369,7 @@
 				{
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468rad",
 					"@type": "sc:Canvas",
-					"label": "Will of Reynold Williams of Much Wollaston, Shropshire",
+					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 1)",
 					"height": 3000,
 					"width": 2068,
 					"images": [
@@ -429,8 +429,18 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
-						},
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468rad"
+						}
+					],
+					"related": ""
+				},
+				{ 
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468sad",
+					"@type": "sc:Canvas",
+					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 2)",
+					"height": 3000,
+					"width": 2068,
+					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
 							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
@@ -487,129 +497,145 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
-						},
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-03.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-03.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 400000000,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"sizeAboveFull",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 3000,
-								"width": 2068
-							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
-						},
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e6wq",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-04.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-04.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 400000000,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"sizeAboveFull",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 3000,
-								"width": 2068
-							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468sad"
 						}
 					],
 					"related": ""
+				},
+				{
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468mad",
+					"@type": "sc:Canvas",
+					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 3)",
+					"height": 3000,
+					"width": 2068,
+					"images": [{
+						"@context": "http://iiif.io/api/presentation/2/context.json",
+						"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
+						"@type": "oa:Annotation",
+						"motivation": "sc:painting",
+						"resource": {
+							"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-03.jpg/full/full/0/default.jpg",
+							"@type": "dctypes:Image",
+							"format": "image/jpeg",
+							"service": {
+								"@context": "http://iiif.io/api/image/2/context.json",
+								"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-03.jpg",
+								"profile": [
+									"http://iiif.io/api/image/2/level2.json",
+									{
+										"formats": [
+											"jpg",
+											"tif",
+											"gif",
+											"png"
+										],
+										"maxArea": 400000000,
+										"qualities": [
+											"bitonal",
+											"default",
+											"gray",
+											"color"
+										],
+										"supports": [
+											"regionByPx",
+											"sizeByW",
+											"sizeByWhListed",
+											"cors",
+											"regionSquare",
+											"sizeByDistortedWh",
+											"sizeAboveFull",
+											"canonicalLinkHeader",
+											"sizeByConfinedWh",
+											"sizeByPct",
+											"jsonldMediaType",
+											"regionByPct",
+											"rotationArbitrary",
+											"sizeByH",
+											"baseUriRedirect",
+											"rotationBy90s",
+											"profileLinkHeader",
+											"sizeByForcedWh",
+											"sizeByWh",
+											"mirroring"
+										]
+									}
+								]
+							},
+							"height": 3000,
+							"width": 2068
+						},
+						"on": "http://6ec17018-07a5-41e4-bbdd-acc849468mad"
+					}],
+					"related": ""
+				},
+				{
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468bad",
+					"@type": "sc:Canvas",
+					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 4)",
+					"height": 3000,
+					"width": 2068,
+					"images": [{
+						"@context": "http://iiif.io/api/presentation/2/context.json",
+						"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e6wq",
+						"@type": "oa:Annotation",
+						"motivation": "sc:painting",
+						"resource": {
+							"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-04.jpg/full/full/0/default.jpg",
+							"@type": "dctypes:Image",
+							"format": "image/jpeg",
+							"service": {
+								"@context": "http://iiif.io/api/image/2/context.json",
+								"@id": "http://127.0.0.1:8182/iiif/2/PROB-11-35-360-04.jpg",
+								"profile": [
+									"http://iiif.io/api/image/2/level2.json",
+									{
+										"formats": [
+											"jpg",
+											"tif",
+											"gif",
+											"png"
+										],
+										"maxArea": 400000000,
+										"qualities": [
+											"bitonal",
+											"default",
+											"gray",
+											"color"
+										],
+										"supports": [
+											"regionByPx",
+											"sizeByW",
+											"sizeByWhListed",
+											"cors",
+											"regionSquare",
+											"sizeByDistortedWh",
+											"sizeAboveFull",
+											"canonicalLinkHeader",
+											"sizeByConfinedWh",
+											"sizeByPct",
+											"jsonldMediaType",
+											"regionByPct",
+											"rotationArbitrary",
+											"sizeByH",
+											"baseUriRedirect",
+											"rotationBy90s",
+											"profileLinkHeader",
+											"sizeByForcedWh",
+											"sizeByWh",
+											"mirroring"
+										]
+									}
+								]
+							},
+							"height": 3000,
+							"width": 2068
+						},
+						"on": "http://6ec17018-07a5-41e4-bbdd-acc849468bad"
+					}],
+					"related": ""
 				}
 			]
-		}
-	],
-	"structures": []
+}
+],
+"structures": []
 }

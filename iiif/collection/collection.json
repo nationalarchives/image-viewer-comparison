@@ -1,0 +1,49 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "localhost:3000/iiif/collection",
+  "@type": "sc:Collection",
+  "label": "Top Level Collection",
+  "viewingHint": "top",
+  "description": "Collection of documents",
+  "attribution": "Provided by The National Archives",
+
+  "collections": [
+    {
+      "@id": "http://example.org/iiif/collection/sub1",
+      "@type": "sc:Collection",
+      "label": "Sub-Collection 1",
+      "members": [  
+        {
+          "@id": "http://example.org/iiif/collection/part1",
+          "@type": "sc:Collection",
+          "label": "My Multi-volume Set",
+          "viewingHint": "multi-part"
+        },
+        {
+          "@id": "http://example.org/iiif/book1/manifest1",
+          "@type": "sc:Manifest",
+          "label": "My Book"
+        },
+        {
+          "@id": "http://example.org/iiif/collection/part2",
+          "@type": "sc:Collection",
+          "label": "My Sub Collection",
+          "viewingHint": "individuals"
+        }
+      ]
+    },
+    {
+      "@id": "http://example.org/iiif/collection/part2",
+      "@type": "sc:Collection",
+      "label": "Sub Collection 2"
+    }
+  ],
+
+  "manifests": [
+    {
+      "@id": "http://example.org/iiif/book1/manifest",
+      "@type": "sc:Manifest",
+      "label": "Book 1"
+    }
+  ]
+}
