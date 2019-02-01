@@ -1,17 +1,15 @@
-// import the http module
-const http = require('http');
+////////////// Express //////////////
 
-// handling the request and returning the response
-const handleRequests = (req, res) => {
+const express = require('express');
+const app = express();
+const port = 5000;
 
-    // Return a string
-    res.end('Hello World');
-};
+// start the server
+app.listen(port, () => {
+    console.log('Have no fear EXPRESS is here.');
+});
 
-// create the server
-const server = http.createServer(handleRequests);
-
-//start server and listen on port x
-server.listen(5000, () => {
-    console.log(`It's Alive`);
+// route to our app
+app.get('/', (req, res) => {
+    res.send('Using express and nodemon');
 });
