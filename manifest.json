@@ -1317,8 +1317,75 @@
 						}
 					],
 					"related": ""
+				},
+				{
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2",
+					"@type": "sc:Canvas",
+					"label": "/WO-95-1486-1 Pg - 25",
+					"height": 2481,
+					"width": 1754,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cbash2",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/WO-95-1486-1-page25.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/WO-95-1486-1-page25.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2481,
+								"width": 1754
+							},
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2"
+						}
+					],
+					"related": ""
 				}
-
 			]
 		}
 	],
