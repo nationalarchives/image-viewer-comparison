@@ -121,3 +121,11 @@ Run the following command at the project root:
 ```bash
 cd tify && http-server -p 3500 --cors & open http://localhost:3500
 ```
+
+### Running the HTML version only
+
+Run the following command at the project root:
+
+```bash
+cd node-app && npm i & open http://localhost:5000
+```
