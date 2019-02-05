@@ -1,9 +1,10 @@
 {
-  "name": "node-app",
+  "name": "html-only-version",
   "version": "1.0.0",
   "description": "Node app to render images from the manifest",
-  "main": "server.js",
+  "main": "server.js", 
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

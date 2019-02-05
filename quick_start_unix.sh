@@ -15,6 +15,9 @@ cd universalviewer && grunt build &
 # Start Tify
 cd tify && http-server -p 3500 --cors &
 
+# Start HTML only version
+cd node-app && npm start &
+
 # Poll to see if our Image Server is running and, if so, open our browser windows
 
 # Output colours
@@ -60,6 +63,7 @@ do
         open http://localhost:8000
         open http://localhost:3000/uv.html
         open http://localhost:3500
+        open http://localhost:5000
 
         $image_server_status="connected"
 

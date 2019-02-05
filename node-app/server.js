@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({
     extended: true 
 }));
 
-
 // Route our app
 const router = require('./routes');
 app.use('/', router);
@@ -25,5 +24,5 @@ app.use(express.static(__dirname + '/public'))
 
 // Start the server
 app.listen(port, () => {
-    console.log('Have no fear EXPRESS is here.');
+    console.log('HTML only server is running');
 });

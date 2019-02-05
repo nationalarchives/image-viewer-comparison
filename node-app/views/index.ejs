@@ -1,16 +1,18 @@
 <%- contentFor('main') %>
-      <main>
-          <div class="container">
-              <div class="row cf">
-                <div class="col-md-12" id="content">
+<div class="container">
+    <div class="row">
+            <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <section id="intro">
-                        <ul class="full">
-                            <% for (canvase of canvasesObj) { %>
-                                <li><a target="_blank" href="<%= canvase.images[0].resource['@id'] %>"><%= canvase.label %></a></li>
-                            <% } %>
-                        </ul>   
+                            <ul class="no-bullet">
+                                <% for (canvas of canvases) { %>
+                                    <li>
+                                        <a target="_blank" href="<%= canvas.images[0].resource['@id'] %>">
+                                            <%= canvas.label %>
+                                        </a>
+                                    </li>
+                                <% } %>
+                            </ul>   
                     </section>
-                </div>
-              </div>
-          </div>
-      </main>
+            </main>        
+    </div>
+</div>
