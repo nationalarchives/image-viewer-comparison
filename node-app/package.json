@@ -1,0 +1,20 @@
+{
+  "name": "html-only-version",
+  "version": "1.0.0",
+  "description": "Node app to render images from the manifest",
+  "main": "server.js", 
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}

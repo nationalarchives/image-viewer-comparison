@@ -1,0 +1,18 @@
+<%- contentFor('main') %>
+<div class="container">
+    <div class="row">
+            <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
+                    <section id="intro">
+                            <ul class="no-bullet">
+                                <% for (canvas of canvases) { %>
+                                    <li>
+                                        <a target="_blank" href="<%= canvas.images[0].resource['@id'] %>">
+                                            <%= canvas.label %>
+                                        </a>
+                                    </li>
+                                <% } %>
+                            </ul>   
+                    </section>
+            </main>        
+    </div>
+</div>
