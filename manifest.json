@@ -30,8 +30,6 @@
 					"@id": "http://c6c4738c-3b20-4680-906b-aade9fb71dae",
 					"@type": "sc:Canvas",
 					"label": "Antarctica document",
-					"height": 3926,
-					"width": 2272,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -44,62 +42,16 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/image01.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 400000000,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"sizeAboveFull",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 3926,
-								"width": 2272
-							},
-							"on": "http://c6c4738c-3b20-4680-906b-aade9fb71dae"
+									"@id": "http://127.0.0.1:8182/iiif/2/image01.jpg"
+								}
+							}
 						}
-					],
-					"related": ""
+					]
 				},
 				{
 					"@id": "http://ef10ceb7-b2a8-408b-bf27-53b31bde0d3c",
 					"@type": "sc:Canvas",
 					"label": "A detailed map",
-					"height": 4177,
-					"width": 5929,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -153,9 +105,7 @@
 											]
 										}
 									]
-								},
-								"height": 4177,
-								"width": 5929
+								}
 							},
 							"on": "http://ef10ceb7-b2a8-408b-bf27-53b31bde0d3c"
 						}
@@ -166,8 +116,6 @@
 					"@id": "http://c31decf4-d84a-49c8-8f0e-c2ccf00ef88e",
 					"@type": "sc:Canvas",
 					"label": "Shakespeare's Will",
-					"height": 2221,
-					"width": 1723,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -221,9 +169,7 @@
 											]
 										}
 									]
-								},
-								"height": 2221,
-								"width": 1723
+								}
 							},
 							"on": "http://c31decf4-d84a-49c8-8f0e-c2ccf00ef88e"
 						}
@@ -234,8 +180,6 @@
 					"@id": "http://d4a911d0-7b78-47a3-9923-56b7a101af78",
 					"@type": "sc:Canvas",
 					"label": "State Paper Office",
-					"height": 2124,
-					"width": 1428,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -289,9 +233,7 @@
 											]
 										}
 									]
-								},
-								"height": 2124,
-								"width": 1428
+								}
 							},
 							"on": "http://d4a911d0-7b78-47a3-9923-56b7a101af78"
 						}
@@ -302,8 +244,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "The King's Players",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -357,9 +297,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -370,8 +308,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 140",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -425,9 +361,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -438,8 +372,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 141",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -493,9 +425,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -561,9 +491,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -574,8 +502,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 143",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -629,9 +555,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -642,8 +566,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 144",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -697,9 +619,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -710,8 +630,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 145",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -765,9 +683,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -778,8 +694,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 146",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -833,9 +747,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -846,8 +758,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 147",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -901,9 +811,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -914,8 +822,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 148",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -969,9 +875,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -982,8 +886,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 149",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1037,9 +939,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -1050,8 +950,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "/C14053843 Pg - 82",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1105,9 +1003,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -1118,8 +1014,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
 					"@type": "sc:Canvas",
 					"label": "/C14053843 Pg - 82",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1173,9 +1067,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
 						}
@@ -1186,8 +1078,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash1",
 					"@type": "sc:Canvas",
 					"label": "/PROB11205241 Pg - 1",
-					"height": 2481,
-					"width": 1754,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1241,9 +1131,7 @@
 											]
 										}
 									]
-								},
-								"height": 2481,
-								"width": 1754
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash1"
 						}
@@ -1254,8 +1142,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2",
 					"@type": "sc:Canvas",
 					"label": "/PROB11205241 Pg - 2",
-					"height": 2481,
-					"width": 1754,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1309,9 +1195,7 @@
 											]
 										}
 									]
-								},
-								"height": 2481,
-								"width": 1754
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2"
 						}
@@ -1322,8 +1206,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2",
 					"@type": "sc:Canvas",
 					"label": "/WO-95-1486-1 Pg - 25",
-					"height": 2481,
-					"width": 1754,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1377,9 +1259,7 @@
 											]
 										}
 									]
-								},
-								"height": 2481,
-								"width": 1754
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2"
 						}
@@ -1390,8 +1270,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468rad",
 					"@type": "sc:Canvas",
 					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 1)",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1445,9 +1323,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468rad"
 						}
@@ -1458,8 +1334,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468sad",
 					"@type": "sc:Canvas",
 					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 2)",
-					"height": 3000,
-					"width": 2068,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1513,9 +1387,7 @@
 											]
 										}
 									]
-								},
-								"height": 3000,
-								"width": 2068
+								}
 							},
 							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468sad"
 						}
@@ -1526,8 +1398,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468mad",
 					"@type": "sc:Canvas",
 					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 3)",
-					"height": 3000,
-					"width": 2068,
 					"images": [{
 						"@context": "http://iiif.io/api/presentation/2/context.json",
 						"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
@@ -1580,9 +1450,7 @@
 										]
 									}
 								]
-							},
-							"height": 3000,
-							"width": 2068
+							}
 						},
 						"on": "http://6ec17018-07a5-41e4-bbdd-acc849468mad"
 					}],
@@ -1592,8 +1460,6 @@
 					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468bad",
 					"@type": "sc:Canvas",
 					"label": "Will of Reynold Williams of Much Wollaston, Shropshire (Page 4)",
-					"height": 3000,
-					"width": 2068,
 					"images": [{
 						"@context": "http://iiif.io/api/presentation/2/context.json",
 						"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e6wq",
@@ -1646,9 +1512,7 @@
 										]
 									}
 								]
-							},
-							"height": 3000,
-							"width": 2068
+							}
 						},
 						"on": "http://6ec17018-07a5-41e4-bbdd-acc849468bad"
 					}],
