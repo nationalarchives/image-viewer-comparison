@@ -92,3 +92,4 @@ composer.phar
 !.vscode/extensions.json
 
 mirador/node_modules
+.DS_Store
