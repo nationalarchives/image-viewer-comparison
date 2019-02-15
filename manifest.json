@@ -1318,7 +1318,7 @@
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabjames",
 					"@type": "sc:Canvas",
 					"label": "/WO-95-1486-1 Pg - 25",
 					"height": 2480,
@@ -1326,7 +1326,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cbash2",
+							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cbjames",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -1380,7 +1380,7 @@
 								"height": 2480,
 								"width": 1753
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash2"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabjames"
 						}
 					],
 					"related": ""
