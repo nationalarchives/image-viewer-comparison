@@ -299,7 +299,7 @@
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab1",
 					"@type": "sc:Canvas",
 					"label": "The King's Players",
 					"height": 3000,
@@ -307,7 +307,6 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -361,17 +360,17 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab1"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 140",
-					"height": 3000,
-					"width": 2068,
+					"height": 9807,
+					"width": 6733,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -429,13 +428,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab3",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 141",
 					"height": 3000,
@@ -497,13 +496,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab3"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab4",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 142",
 					"height": 3000,
@@ -565,13 +564,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab4"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab10",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 143",
 					"height": 3000,
@@ -633,13 +632,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab10"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab11",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 144",
 					"height": 3000,
@@ -701,13 +700,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab11"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab12",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 145",
 					"height": 3000,
@@ -769,13 +768,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab12"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab13",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 146",
 					"height": 3000,
@@ -837,13 +836,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab13"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab5",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 147",
 					"height": 3000,
@@ -905,13 +904,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab5"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab6",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 148",
 					"height": 3000,
@@ -973,13 +972,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab6"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab7",
 					"@type": "sc:Canvas",
 					"label": "WO 95/1097/9 Pg - 149",
 					"height": 3000,
@@ -1041,13 +1040,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab7"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab8",
 					"@type": "sc:Canvas",
 					"label": "/C14053843 Pg - 82",
 					"height": 3000,
@@ -1109,13 +1108,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab8"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab9",
 					"@type": "sc:Canvas",
 					"label": "/C14053843 Pg - 82",
 					"height": 3000,
@@ -1177,13 +1176,13 @@
 								"height": 3000,
 								"width": 2068
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab9"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash1",
+					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash12",
 					"@type": "sc:Canvas",
 					"label": "/PROB11205241 Pg - 1",
 					"height": 2481,
@@ -1245,7 +1244,7 @@
 								"height": 2481,
 								"width": 1754
 							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash1"
+							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dabash12"
 						}
 					],
 					"related": ""
