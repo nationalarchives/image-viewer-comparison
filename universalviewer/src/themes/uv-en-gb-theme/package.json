@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "@universalviewer/uv-en-gb-theme@1.1.2",
-      "/Users/gwynjones/PhpstormProjects/image-viewer-comparison/universalviewer"
-    ]
-  ],
   "_from": "@universalviewer/uv-en-gb-theme@1.1.2",
   "_id": "@universalviewer/uv-en-gb-theme@1.1.2",
   "_inBundle": false,
@@ -23,17 +17,21 @@
     "fetchSpec": "1.1.2"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@universalviewer/uv-en-gb-theme/-/uv-en-gb-theme-1.1.2.tgz",
-  "_spec": "1.1.2",
-  "_where": "/Users/gwynjones/PhpstormProjects/image-viewer-comparison/universalviewer",
+  "_shasum": "b6b9dcc957b5d63067e56daef7a298f7c0a21458",
+  "_spec": "@universalviewer/uv-en-gb-theme@1.1.2",
+  "_where": "/Users/jameschan/Documents/Work/image-viewer-comparison/universalviewer",
   "author": {
     "name": "@edsilv"
   },
   "bugs": {
     "url": "https://github.com/UniversalViewer/uv-en-gb-theme/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "",
   "homepage": "https://github.com/UniversalViewer/uv-en-gb-theme#readme",
   "license": "MIT",

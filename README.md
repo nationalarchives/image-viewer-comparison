@@ -129,3 +129,6 @@ Run the following command at the project root:
 ```bash
 cd node-app && npm i & open http://localhost:5000
 ```
+## Manifest.json validation
+
+The manifest.json used in this repository has been validated using a local IIIF validator tool: https://github.com/chrxr/IIIF-local-validator

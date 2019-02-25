@@ -307,6 +307,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a3d3b998-20cf-480f-8a16-3429fa2ddef5",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
