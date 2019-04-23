@@ -6,6 +6,8 @@ setTimeout(() => {
         let fullscreenButton = document.createElement('Button');
 
         buttons.appendChild(fullscreenButton);
+        fullscreenButton.setAttribute('title', 'Full screen');
+        fullscreenButton.setAttribute('class', 'tify-scan_button');
 
         fullscreenButton.addEventListener('click', (e) => {
             if (tifyScreen.requestFullscreen) {
