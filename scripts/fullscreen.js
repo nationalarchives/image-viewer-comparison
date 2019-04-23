@@ -1,15 +1,15 @@
 setTimeout(() => {
-    let tifyScreen = document.querySelector('#tify');
+    let tifyScreen = document.querySelector("tify");
 
     let addFullscreenButton = () => {
-        let buttons = document.querySelector('.tify-scan_buttons');
-        let fullscreenButton = document.createElement('Button');
+        let buttons = document.querySelector(".tify-scan_buttons");
+        let fullscreenBtn = document.createElement("Button");
 
-        buttons.appendChild(fullscreenButton);
-        fullscreenButton.setAttribute('title', 'Full screen');
-        fullscreenButton.setAttribute('class', 'tify-scan_button');
+        buttons.appendChild(fullscreenBtn);
+        fullscreenBtn.setAttribute("title", "Full screen");
+        fullscreenBtn.setAttribute("class", "tify-scan_buttons");
 
-        fullscreenButton.addEventListener('click', (e) => {
+        fullscreenBtn.addEventListener("click", (e) => {
             if (tifyScreen.requestFullscreen) {
                 tifyScreen.requestFullscreen();
             } else if (tifyScreen.mozRequestFullScreen) { // Firefox
