@@ -12,7 +12,7 @@ function addFullscreenButton() {
                 fullscreenBtn.setAttribute("title", "Full screen");
                 fullscreenBtn.setAttribute("class", "tify-scan_button");
 
-                fullscreenBtnImage.setAttribute('src',"../tify/img/baseline-fullscreen-24px.svg");
+                fullscreenBtnImage.setAttribute('src',"../tify/img/sharp_fullscreen_white_18dp.png");
                 fullscreenBtn.appendChild(fullscreenBtnImage);
 
                 span.setAttribute('class', 'tify-sr-only');
