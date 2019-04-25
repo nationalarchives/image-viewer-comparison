@@ -10,7 +10,7 @@ let addFullscreenButton = () => {
                 buttons.appendChild(fullscreenBtn);
                 fullscreenBtn.setAttribute("class", "tify-scan_button");
                 fullscreenBtn.setAttribute("title", "Full screen");
-                fullscreenBtnImage.setAttribute('src',"../tify/img/sharp_fullscreen_white_18dp.png");
+                fullscreenBtnImage.setAttribute('src',"../tify/img/baseline_fullscreen_white_small.png");
                 fullscreenBtn.appendChild(fullscreenBtnImage);
                 span.setAttribute('class', 'tify-sr-only');
                 fullscreenBtn.appendChild(span);
@@ -47,6 +47,7 @@ let toggleFullscreen = (isFullScreen, fullscreenBtn) => {
     }
     else {
         fullscreenBtn.setAttribute("title", "Exit full screen");
+        fullscreenBtn.firstChild.setAttribute('src',"../tify/img/baseline_fullscreen_exit_white_small.png");
         if (tifyScreen.requestFullscreen) {
             tifyScreen.requestFullscreen();
         } else if (tifyScreen.mozRequestFullScreen) { // Firefox
