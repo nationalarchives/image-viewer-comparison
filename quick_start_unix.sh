@@ -6,12 +6,6 @@ cd cantaloupe-4.0.2/unix && java -Dcantaloupe.config=cantaloupe.properties -Xmx2
 # Start the http-server
 http-server -p 3000 --cors &
 
-# Start Mirador
-cd mirador && npm start &
-
-# Start Universal Viewer
-cd universalviewer && grunt build &
-
 # Start Tify
 cd tify && http-server -p 3500 --cors &
 

@@ -1,5 +1,9 @@
 # Open Source Image viewer
 
+## Look in the history to see Mirador and UV
+
+This README is now focussed on TIFY since the decision to adopt it as our IIIF image viewer. **To view other image viewers checkout an earlier commit - either in the terminal or by navigating the code in GitHub**
+
 This repository has been created to coordinate developers' work in comparing Open Source IIIF image viewers. The related issue and tasks are at https://github.com/nationalarchives/Subscription-Offering/issues/143
 
 | Feature                                   | Universal Viewer  | Mirador   | Tify   | Notes
@@ -99,20 +103,6 @@ or
 
 http://127.0.0.1:3000/manifest.json
 ````
-
-### Running Mirador
-
-Run the following commands at the project root:
-```bash
-cd mirador && npm i && npm start & open http://localhost:8000
-```
-
-### Running Universal Viewer
-
-Run the following commands at the project root:
-```bash
-cd universalviewer && npm i && grunt build & open http://localhost:3000/uv.html
-```
 
 ### Running Tify
 
