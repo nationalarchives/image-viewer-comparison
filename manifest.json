@@ -1,73 +1,115 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://3447e307-52a3-4a0e-8386-a280c576e141",
-	"@type": "sc:Manifest",
-	"label": "Collection of Documents",
-	"logo": "http://localhost:3000/logo.jpg",
-	"metadata": [
-		{
-			"label": "Description",
-			"value": "Here is a series of documents."
-		}
-	],
-	"description": "A selection of highlights from The National Archives",
-	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "The National Archives",
-	"sequences": [
-		{
-			"@id": "http://84fb3b4b-0e65-495b-bb70-32091c46ab92",
-			"@type": "sc:Sequence",
-			"label": [
-				{
-					"@value": "Normal Sequence",
-					"@language": "en"
-				}
-			],
-			"canvases": [
-				{
-					"@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2",
-					"@type": "sc:Canvas",
-					"label": "WO 95/1097/9 Pg - 140",
-					"height": 9807,
-					"width": 6733,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/getimage.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/getimage.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 400000000,
-											"qualities": [],
-											"supports": []
-										}
-									]
-								},
-								"height": 3000,
-								"width": 2068
-							},
-							"on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2"
-						}
-					],
-					"related": ""
-				}
-			]
-		}
-	],
-	"structures": []
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://3447e307-52a3-4a0e-8386-a280c576e141",
+  "@type": "sc:Manifest",
+  "label": "Collection of Documents",
+  "logo": "http://localhost:3000/logo.jpg",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Here is a series of documents."
+    }
+  ],
+  "description": "A selection of highlights from The National Archives",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": "The National Archives",
+  "sequences": [
+    {
+      "@id": "http://84fb3b4b-0e65-495b-bb70-32091c46ab92",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2",
+          "@type": "sc:Canvas",
+          "label": "WO 95/1097/9 Pg - 1",
+          "height": 9807,
+          "width": 6733,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:8182/iiif/2/C14053843.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:8182/iiif/2/C14053843.jpg",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "maxArea": 400000000,
+                      "qualities": [],
+                      "supports": []
+                    }
+                  ]
+                },
+                "height": 3000,
+                "width": 2068
+              },
+              "on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2",
+          "@type": "sc:Canvas",
+          "label": "WO 95/1097/9 Pg - 2",
+          "height": 9807,
+          "width": 6733,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://dad797c1-b30c-4f1b-9370-17f878d3e2cb",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:8182/iiif/2/C14056081.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:8182/iiif/2/C14056081.jpg",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level2.json",
+                    {
+                      "formats": [
+                        "jpg",
+                        "tif",
+                        "gif",
+                        "png"
+                      ],
+                      "maxArea": 400000000,
+                      "qualities": [],
+                      "supports": []
+                    }
+                  ]
+                },
+                "height": 3000,
+                "width": 2068
+              },
+              "on": "http://6ec17018-07a5-41e4-bbdd-acc849468dab2"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": []
 }
