@@ -46,8 +46,6 @@ This is a three-step process:
 	* [On Windows systems](#running-an-iiif-image-server-windows)
 2. [Running the web server](#running-the-web-server)
 3. Starting the viewer:
-	* [Mirador](#running-mirador)
-	* [Universal Viewer](#running-universal-viewer)
 	* [Tify](#running-tify)
 
 ### Running an IIIF Image Server (Unix)
