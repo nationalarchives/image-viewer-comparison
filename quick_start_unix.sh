@@ -6,17 +6,11 @@ cd cantaloupe-4.0.2/unix && java -Dcantaloupe.config=cantaloupe.properties -Xmx2
 # Start the http-server
 http-server -p 3000 --cors &
 
-# Start Mirador
-cd mirador && npm start &
-
-# Start Universal Viewer
-cd universalviewer && grunt build &
-
 # Start Tify
 cd tify && http-server -p 3500 --cors &
 
 # Start HTML only version
-cd node-app && npm start &
+cd node-app && npm install && npm start &
 
 # Poll to see if our Image Server is running and, if so, open our browser windows
 
@@ -60,10 +54,8 @@ do
 
         printf "\n\n\n"
 
-        open http://localhost:8000
-        open http://localhost:3000/uv.html
-        open http://localhost:3500
         open http://localhost:5000
+        open http://localhost:3500
 
         $image_server_status="connected"
 

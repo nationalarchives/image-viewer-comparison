@@ -1,5 +1,9 @@
 # Open Source Image viewer
 
+## Look in the history to see Mirador and UV
+
+This README is now focussed on TIFY since the decision to adopt it as our IIIF image viewer. **To view other image viewers checkout an earlier commit - either in the terminal or by navigating the code in GitHub**
+
 This repository has been created to coordinate developers' work in comparing Open Source IIIF image viewers. The related issue and tasks are at https://github.com/nationalarchives/Subscription-Offering/issues/143
 
 | Feature                                   | Universal Viewer  | Mirador   | Tify   | Notes
@@ -7,7 +11,7 @@ This repository has been created to coordinate developers' work in comparing Ope
 | Zoom                                      | Yes               |  Yes      | Yes    |
 | Pan                                       | Yes               |  Yes      | Yes    |
 | Rotate                                    | Yes               |  Yes      | Yes    |
-| Reset                                     | No 	        |  Yes      | Yes    |**Tify** - reset only works on `Brigtness`, `Contrast` and `Satiration` changes
+| Reset                                     | No 	            |  Yes      | Yes    |**Tify** - reset only works on `Brigtness`, `Contrast` and `Satiration` changes
 | Bookmark individual image                 |                   |           |        |
 | Add notes to individual image             |                   |  Yes      |        |
 | Print - individual image                  | Yes               |           |        |
@@ -18,11 +22,11 @@ This repository has been created to coordinate developers' work in comparing Ope
 | Navigate multiple pages - jump to page    | Yes               |           | Yes    |
 | Image manipulation - core IIIF            |                   |  Some     | Some   |
 | Image manipulation - additional           |                   |  Yes      | Yes    |
-| Client-Side manipulation - Brigthness     | No     		|  Yes      | Yes    |
-| Client-Side manipulation - Contrast       | No 		|  Yes      | Yes    |
-| Client-Side manipulation - Saturation     | No		|  Yes      | Yes    |
-| Client-Side manipulation - Grayscale      | No		|  Yes      | Yes    |
-| Client-Side manipulation - Invert colors  | No		|  Yes      | No     |
+| Client-Side manipulation - Brigthness     | No     		    |  Yes      | Yes    |
+| Client-Side manipulation - Contrast       | No 		        |  Yes      | Yes    |
+| Client-Side manipulation - Saturation     | No		        |  Yes      | Yes    |
+| Client-Side manipulation - Grayscale      | No		        |  Yes      | Yes    |
+| Client-Side manipulation - Invert colors  | No		        |  Yes      | No     |
 
 ## Daily use
 
@@ -42,8 +46,6 @@ This is a three-step process:
 	* [On Windows systems](#running-an-iiif-image-server-windows)
 2. [Running the web server](#running-the-web-server)
 3. Starting the viewer:
-	* [Mirador](#running-mirador)
-	* [Universal Viewer](#running-universal-viewer)
 	* [Tify](#running-tify)
 
 ### Running an IIIF Image Server (Unix)
@@ -99,20 +101,6 @@ or
 
 http://127.0.0.1:3000/manifest.json
 ````
-
-### Running Mirador
-
-Run the following commands at the project root:
-```bash
-cd mirador && npm i && npm start & open http://localhost:8000
-```
-
-### Running Universal Viewer
-
-Run the following commands at the project root:
-```bash
-cd universalviewer && npm i && grunt build & open http://localhost:3000/uv.html
-```
 
 ### Running Tify
 
