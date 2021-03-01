@@ -96,7 +96,7 @@
     "openseadragon": "2.2.1",
     "pdfjs-dist": "2.0.161",
     "requirejs": "2.2.0",
-    "three": "0.91.0",
+    "three": "0.125.0",
     "virtex3d": "0.3.18",
     "waveform-data": "2.0.2",
     "xss": "1.0.3"
