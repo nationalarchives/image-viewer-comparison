@@ -84,7 +84,7 @@
     "select2": "^4.0.3",
     "simple-pagination.js": "^1.6.0",
     "spectrum-colorpicker": "^1.8.0",
-    "tinymce": "^4.1.7",
+    "tinymce": "^5.7.1",
     "urijs": "^1.16.1"
   },
   "engine": "node < 7.0.0"
